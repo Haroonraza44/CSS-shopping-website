@@ -1,0 +1,122 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contactstyle.css">
+    <link rel="stylesheet" href="mar-padding.css">
+    <title>Register</title>
+
+</head>
+
+<body>
+    <header class="header2">
+        <nav class="nav2">
+            <ul class="hover">
+
+                <li>
+                    <a href="contact.html" > Contact</a>
+                </li>
+
+                <li> <a href="Login.html">Login</a></li>
+
+                <li><a href="Registration.html">Register</a></li>
+
+                <li><a href="Products/index.html">Products </a></li>
+
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form action="index.html">
+
+        <fieldset>
+
+            <legend>Login info</legend>
+            <br />
+
+                <label for="user"> Username: </label>
+                <input type="text" name="Username" id="user" required >
+                <br />
+
+                <label for="email">Email: </label>
+                <input type="email" name="Email" id="email" required placeholder="e.g. abc123@gmail.com">
+                <br />
+                <label for="pass">Password: </label>
+                <input type="password" name="Password" id="pass" required minlength="6">
+            
+        </fieldset>
+        <fieldset>
+
+            <legend>Personal info</legend>
+            <br />
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+                <p class="ptop20 pbottom20" 
+                >
+
+                <label for="city" class="city">City:</label>
+                <select name="city" size="1" required class="city mtop10 mleft10 p0">
+
+                    <option value="Islamabad">Islamabad</option>
+                    <option value="Karachi">Karachi</option>
+                    <option value="Lahore">Lahore</option>
+                    <option value="Peshawar">Peshawar</option>
+                    <option value="Quetta">Quetta</option>
+                    <option value="Faisalabad">Faisalabad</option>
+                    <option value="Rawalpindi">Rawalpindi</option>
+                    <option value="Gujranwala">Gujranwala</option>
+                    <option value="Sialkot">Sialkot</option>
+                    <option value="Other">Other</option>
+                </select>
+            </p>
+            
+                <p class="mbottom0 ptop5 gender-title ">Gender:</p>
+                <p class="gender">
+                    <label for="male" class="radio">Male</label>
+                    <input type="radio" name="gender" id="Male" value="Male" checked> <br>
+                </p>
+                <p class="gender">
+                    <label for="female" class="radio">Female</label>
+                    <input type="radio" name="gender" id="female" value="Female">
+                </p>
+                <label for="hobbies" class="mbottom0">Hobbies</label>
+                <textarea name="hobbies" id="hobbies" placeholder="your hobbies" cols="40" rows="10"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Shipping info</legend>
+            <br />
+                <label for="address">Address:</label>
+                <input type="text" name="address" id="address" required>
+                <br />
+                <label for="Postal">Postal code:</label>
+                <input type="text" name="Postal" id="Postal" maxlength="5" required>
+                <br />
+                <label for="City">City:</label>
+                <input type="text" name="City" id="city" required placeholder="e.g Islamabad">
+                <p class="submit">
+                    <input type="submit" class="mtop10" value="Register"></p>
+
+                    <p class="dont">
+
+                        <a href="Login.html"> <span>Login</span> if you already have account </a>
+                    </p>
+        </fieldset>
+        </form>
+
+        <p class="back">
+            <button> <a href="index.html">Go to Home</a></button>
+        </p>
+    </main>
+    <footer class="mbottom0">
+        <p class="pbottom10 mtop5">
+            &copy; All Rights Reserved
+        </p>
+    </footer>
+</body>
+
+</html>

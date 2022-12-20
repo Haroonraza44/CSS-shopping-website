@@ -1,0 +1,162 @@
+ @import url('https://fonts.googleapis.com/css2?family=Gudea&family=Raleway&display=swap');
+body {
+    background: #ffe066;
+font-family: 'Gudea' ,sans-serif;
+}
+
+.header2 {
+    background-image: url(images/darazlogo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 60px;
+}
+
+.nav2 {
+    padding-top: 30;
+}
+main{width: 600px;
+    margin: 100 auto 30 auto;
+background-color: #fafeff;
+border: 10px solid #efefef;
+font-size: 110%;
+}
+
+fieldset {
+    margin: 20 50 0 100;
+    border: 0px solid #fff9db;
+}
+
+fieldset legend {
+    border-bottom: 1px solid #000;
+    padding-bottom: 15px;
+    width: 250px;
+    letter-spacing: 1;
+    font-size: 160%;
+    font-weight: normal;
+}
+
+button a,
+p a {
+    text-decoration: none;
+    color: black;
+}
+
+form label {
+    text-align: left;
+    margin: 10 0;
+    display: block;
+clear: both;
+}
+
+input {
+    padding: 2 5;
+    float: left;
+    background-color: #fafafa;
+    width: 70%;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+textarea {
+    margin: 0 0 10 0;
+    background-color: #fafafa;
+    float: left;
+}
+
+input[type="submit"] {
+    width: 110px;
+    display: block;
+    clear: left;
+    margin-left: 185;
+    text-transform: capitalize;
+
+}
+
+input#login {
+    width: 70px;
+    display: block;
+    clear: left;
+    margin-top: 10;
+    margin-left: 220;
+    text-transform: capitalize;
+}
+
+input[type="submit"]:hover {
+    background-color: #eef;
+    color:royalblue;
+}
+
+input:hover,
+input:focus,
+input:active,
+textarea:hover,
+textarea:focus,
+textarea:active {
+    background-color: #efefef
+}
+p.submit{ 
+    text-align: right;}
+
+p.dont {
+    text-align: left;
+    padding-top: 20;
+    clear: both;
+font-size: 0.9rem;
+}
+p.dont a{
+    text-decoration: underline;
+}
+p.dont a:hover,
+p.dont a span:hover
+{
+    color: #0000aa;
+}
+p.back{text-align: center;
+}
+p.back button{
+background-color: #fff;
+    width: 120px;
+    border: 3px solid #000;
+border-radius: 5px;}
+
+p.back button:hover,
+p.back button a:hover{
+    background: #fff9ef;
+    color: #0000aa;
+    text-decoration: underline;
+
+}
+p.gender-title{
+    clear: left;
+
+}
+p.gender{
+    float: left;
+margin-left: 10;
+margin-top: 5;}
+p.gender label,
+p.gender input
+{display: inline;
+float: none;
+width: auto;}
+.city{float: left;}
+
+hr{
+    width: 500px;  
+    margin-top: 20;
+    border: 0; 
+    height: 2px; 
+    background-image: -webkit-linear-gradient(left, #f0f0f0,#efe, #f0f0f0);
+    background-image: -moz-linear-gradient(left, #f0f0f0, #efe, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #f0f0f0, #393b3b, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, #efe, #f0f0f0); 
+  }
+
+div.contact-address{
+    padding-left: 110px;
+    margin-top: 30;
+}
+div.contact-address a {color: royalblue;
+}
+div.contact-address a:hover{text-decoration: underline;}

@@ -1,0 +1,217 @@
+@import url(mar-padding.css);
+@import url('https://fonts.googleapis.com/css2?family=Gudea&family=Raleway&display=swap');
+
+body {
+    background-color: #fff9db;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gudea', Arial, Helvetica, sans-serif
+
+}
+
+header {
+    background-color: #000;
+    height: 120px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    border-bottom: 1px solid #fff;
+    box-sizing: border-box;
+}
+
+nav {
+    padding-top: 45;
+    height: 70px;
+    box-sizing: border-box;
+}
+
+
+nav ul {
+    margin: 0;
+
+}
+
+.logo {
+
+    width: 100%;
+    height: 50px;
+}
+
+.logo img {
+    height: 80px;
+    float: left;
+
+}
+
+input[type="search"] {
+    width: 500px;
+    height: 20px;
+    margin: 30 0 10 100;
+    border: 1px solid black;
+    border-radius: 100px;
+}
+
+nav ul li {
+    display: inline;
+    color: #fff;
+    border-right: 1px solid #fff;
+    text-transform: uppercase;
+    letter-spacing: 1;
+}
+
+nav ul li a {
+    margin: 0 20;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+aside li{margin: 10;
+letter-spacing: 0.5px;}
+
+article {
+    margin-top: 120px;
+    width: 80%;
+    float: left;
+    margin-bottom: 30px;
+box-sizing: border-box;
+border-width: 1 1 1 0;
+border-style: solid;
+border-color: #eee;
+}
+main{margin-top: 120;
+margin-bottom: 30;}
+
+.sec_1 {
+    background: #ffe066;
+    height: 200px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+border: 1px solid black;
+}
+
+.main {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.main h2 {
+    font-size: 250%;
+    letter-spacing: 2px;
+    font-weight: normal;
+}
+
+.main p {
+    font-weight: lighter;
+    font-size: 120%;
+    letter-spacing: 2.6px;
+}
+
+figcaption {
+    letter-spacing: 1.54px;
+}
+
+figure {
+    width: 30%;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+figure img {
+    width: 80%;
+}
+
+
+.sec_2 a img {
+    width: 220px;
+}
+
+
+.sec_2 {
+    background: #fff9db;
+    width: 100%;
+    text-align: center;
+box-sizing: border-box;
+border: 1px solid black;
+}
+
+.sec_2 ul li {
+    display: inline;
+    margin: 0 10;
+}
+
+.sec_2 a {
+    padding: 10;
+}
+
+aside {
+    width: 20%;
+    background: #27408B;
+    margin-top: 120px;
+    float: right;
+    height: 600px;
+box-sizing: border-box;
+border-width: 0 1 ;
+border-color: #fff;
+border-style: solid;
+color: #fff;
+}
+
+
+aside h1 {
+    border-bottom: 2px solid #fff;
+color: #fff;
+}
+aside a,
+aside span{
+    color: #fff;
+text-decoration: none;
+}
+
+footer {
+    background-color: #000;
+    width: 100%;
+    display: block;
+    height: 30px;
+    position: fixed;
+    bottom: 0;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1rem;
+border-width: 1 1 1 1;
+border-style: solid; 
+border-color: #eee;
+box-sizing: border-box;
+
+}
+input[type="button"]{background-image: url(images/search.png);
+background-repeat: no-repeat;
+background-color: #fff;
+background-size: contain;
+width: 25px;
+background-position:  center center ;
+border: 1px solid black;
+border-radius: 4px;}
+
+
+.sec_2 li img:hover {
+    background: #eee;
+border:2px solid #000;
+}
+   aside a:hover {
+        color: #dff;
+        text-decoration: underline;
+    }
+    
+    header a:hover {
+        background-color: white;
+        color: black;
+    
+    }
+    
+input[type="button"]:hover{background-color: gainsboro;}
