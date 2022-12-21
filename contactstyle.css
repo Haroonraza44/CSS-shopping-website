@@ -70,7 +70,7 @@ input[type="submit"] {
     clear: left;
     margin-left: 185;
     text-transform: capitalize;
-
+ color:#000
 }
 
 input#login {
